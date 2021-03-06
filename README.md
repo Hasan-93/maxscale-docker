@@ -104,9 +104,8 @@ SELECT * FROM zipcodes_one.zipcodes_one LIMIT 9990,10
 (42039, 'STANDARD', 'FANCY FARM', 'KY', 'PRIMARY', '36.75', '-88.79', 'NA-US-KY-FANCY FARM', 'FALSE', '696', '1317', '20643485')
 (40319, 'PO BOX', 'FARMERS', 'KY', 'PRIMARY', '38.14', '-83.54', 'NA-US-KY-FARMERS', 'FALSE', '', '', '')
 
-
 ```
-###The first 10 rows of zipcodes_tow
+### The first 10 rows of zipcodes_tow
 ```
 SELECT * FROM zipcodes_two.zipcodes_two LIMIT 10
 
