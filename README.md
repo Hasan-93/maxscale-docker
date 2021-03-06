@@ -47,7 +47,7 @@ phpmyadmin            /docker-entrypoint.sh apac ...   Up      0.0.0.0:8080->80/
 
 
 ```
-###To check that the servers up and running
+###To check that the servers are up and running
 ```
 sudo docker-compose exec maxscale maxctrl list servers
 
@@ -59,9 +59,8 @@ sudo docker-compose exec maxscale maxctrl list servers
 │ zip_master_two │ master2 │ 3306 │ 0           │ Running         │ 0-3000-31 │
 └────────────────┴─────────┴──────┴─────────────┴─────────────────┴───────────┘
 
-
 ```
-### here is connecting mariadb using the username (maxuser),password  (maxpwd) with port 4000
+### Here is connecting to mariadb using the username (maxuser),password  (maxpwd) with port 4000
 ```
 mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 ```
