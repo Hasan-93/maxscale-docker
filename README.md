@@ -63,7 +63,7 @@ sudo docker-compose exec maxscale maxctrl list servers
 ### Here is connecting to mariadb using the username (maxuser),password  (maxpwd) with port 4000
 ```
 mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
-```
+
 hasan@Hasan:~/maxscale-docker/maxscale$ mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MariaDB connection id is 1
@@ -84,7 +84,6 @@ MariaDB [(none)]> show databases;
 | zipcodes_two       |
 +--------------------+
 5 rows in set (0.000 sec)
-
 
 ```
 ## SQL queries for the py file
