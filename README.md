@@ -12,10 +12,7 @@ sudo apt install docker.io
 sudo systemctl enable --now docker
 sudo systemctl status docker
 ```
-#### This command to check the Docker status 
-```
-sudo systemctl status docker
-```
+
 ## To install Docker Compose:
 ```
 sudo apt install docker-compose
