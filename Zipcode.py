@@ -6,30 +6,23 @@ cur = conn.cursor()
 
 cur.execute("SELECT * FROM zipcodes_two.zipcodes_two ORDER BY Zipcode LIMIT 1")
 databaseList0 = cur.fetchall()
-
 cur.execute("SELECT * FROM zipcodes_one.zipcodes_one ORDER BY Zipcode DESC LIMIT 1")
 databaseList1 = cur.fetchall()
-
 cur.execute("SELECT * FROM zipcodes_two.zipcodes_two LIMIT 10")
 databaseList2 = cur.fetchall()
-
 cur.execute("SELECT * FROM zipcodes_one.zipcodes_one LIMIT 9990,10")
 databaseList3 = cur.fetchall()
 
 for database in databaseList0:
-
     print(database)
 
 for database in databaseList1:
-
     print(database)
 
 for database in databaseList2:
-
     print(database)
 
 for database in databaseList3:
-
     print(database)
 
 
