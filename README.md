@@ -24,7 +24,7 @@ sudo apt install mariadb-client
 ### Clonning maxscale-docker repository
 ```
 sudo apt install git
-git clone https://github.com/luma24/maxscale-docker
+https://github.com/Zohan/maxscale-docker
 ```
 #### Then navigate to maxscale:
 ```
