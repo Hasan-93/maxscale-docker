@@ -123,17 +123,17 @@ SELECT * FROM zipcodes_two.zipcodes_two LIMIT 10
 ### The largest zipcode number in zipcodes_one
 
 ```
-SELECT * FROM zipcodes_one.zipcodes_one ORDER BY Zipcode DESC LIMIT 1
+MariaDB [(none)]> SELECT Zipcode FROM zipcodes_one.zipcodes_one ORDER BY Zipcode DESC LIMIT 1
 
-(47750, 'UNIQUE', 'EVANSVILLE', 'IN', 'PRIMARY', '37.98', '-87.54', 'NA-US-IN-EVANSVILLE', 'FALSE', '', '', '')
+('47750')
 
 ```
 ### The smallest zipcode number in zipcodes_two
 
 ```
-SELECT * FROM zipcodes_two.zipcodes_two ORDER BY Zipcode LIMIT 1
+MariaDB [(none)]> SELECT Zipcode FROM zipcodes_two.zipcodes_two ORDER BY Zipcode ASC LIMIT 1
 
-(38257, 'STANDARD', 'SOUTH FULTON', 'TN', 'PRIMARY', '36.49', '-88.88', 'NA-US-TN-SOUTH FULTON', 'FALSE', '2066', '3778', '63816233')
+('38257')
 ```
 
 ### Sources:
